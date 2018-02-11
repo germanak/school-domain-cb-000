@@ -11,11 +11,11 @@ class School
     @roster.include?(grade) ? @roster[grade] << student : @roster[grade] = [student]
   end
 
-  def grade
+  def grade(student_grade)
     @roster[grade]
   end
 
-  def sort
-    @roster[grade].values.sort{|a, b| a <=> b}
+  def
+
   end
 end
