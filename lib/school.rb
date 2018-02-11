@@ -16,6 +16,6 @@ class School
   end
 
   def sort
-    @roster.sort_by {|grade, students| grade[students]}
+    @roster[grade].values.sort!
   end
 end
